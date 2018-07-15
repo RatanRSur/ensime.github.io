@@ -11,7 +11,7 @@ If you're using Ubuntu, as of 16.04, default Vim doesn't have Python configured.
 1. Install external Python modules that `ensime-vim` requires to function:
 
     ```
-    $ pip install websocket-client sexpdata
+    $ pip install websocket-client sexpdata numpy
     ```
 1. If you use Neovim, additionally ensure you've installed the `neovim` module:
 
